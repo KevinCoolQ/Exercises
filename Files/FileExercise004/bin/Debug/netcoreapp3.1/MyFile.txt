@@ -1,0 +1,3 @@
+Hello and Welcome.
+This is the second line
+of the text file MyFile.txt.
