@@ -1,0 +1,10 @@
+C:\Users\u2389\source\repos\lucvervoort\Exercises\Files\FileExercise001\bin\Release\netcoreapp3.1\FileExercise001.exe
+C:\Users\u2389\source\repos\lucvervoort\Exercises\Files\FileExercise001\bin\Release\netcoreapp3.1\FileExercise001.deps.json
+C:\Users\u2389\source\repos\lucvervoort\Exercises\Files\FileExercise001\bin\Release\netcoreapp3.1\FileExercise001.runtimeconfig.json
+C:\Users\u2389\source\repos\lucvervoort\Exercises\Files\FileExercise001\bin\Release\netcoreapp3.1\FileExercise001.runtimeconfig.dev.json
+C:\Users\u2389\source\repos\lucvervoort\Exercises\Files\FileExercise001\bin\Release\netcoreapp3.1\FileExercise001.dll
+C:\Users\u2389\source\repos\lucvervoort\Exercises\Files\FileExercise001\bin\Release\netcoreapp3.1\FileExercise001.pdb
+C:\Users\u2389\source\repos\lucvervoort\Exercises\Files\FileExercise001\obj\Release\netcoreapp3.1\FileExercise001.AssemblyInfoInputs.cache
+C:\Users\u2389\source\repos\lucvervoort\Exercises\Files\FileExercise001\obj\Release\netcoreapp3.1\FileExercise001.AssemblyInfo.cs
+C:\Users\u2389\source\repos\lucvervoort\Exercises\Files\FileExercise001\obj\Release\netcoreapp3.1\FileExercise001.dll
+C:\Users\u2389\source\repos\lucvervoort\Exercises\Files\FileExercise001\obj\Release\netcoreapp3.1\FileExercise001.pdb

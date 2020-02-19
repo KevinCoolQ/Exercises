@@ -1,0 +1,10 @@
+C:\Users\u2389\source\repos\lucvervoort\Exercises\Files\SubDirList\bin\Debug\netcoreapp3.1\SubDirList.exe
+C:\Users\u2389\source\repos\lucvervoort\Exercises\Files\SubDirList\bin\Debug\netcoreapp3.1\SubDirList.deps.json
+C:\Users\u2389\source\repos\lucvervoort\Exercises\Files\SubDirList\bin\Debug\netcoreapp3.1\SubDirList.runtimeconfig.json
+C:\Users\u2389\source\repos\lucvervoort\Exercises\Files\SubDirList\bin\Debug\netcoreapp3.1\SubDirList.runtimeconfig.dev.json
+C:\Users\u2389\source\repos\lucvervoort\Exercises\Files\SubDirList\bin\Debug\netcoreapp3.1\SubDirList.dll
+C:\Users\u2389\source\repos\lucvervoort\Exercises\Files\SubDirList\bin\Debug\netcoreapp3.1\SubDirList.pdb
+C:\Users\u2389\source\repos\lucvervoort\Exercises\Files\SubDirList\obj\Debug\netcoreapp3.1\SubDirList.AssemblyInfoInputs.cache
+C:\Users\u2389\source\repos\lucvervoort\Exercises\Files\SubDirList\obj\Debug\netcoreapp3.1\SubDirList.AssemblyInfo.cs
+C:\Users\u2389\source\repos\lucvervoort\Exercises\Files\SubDirList\obj\Debug\netcoreapp3.1\SubDirList.dll
+C:\Users\u2389\source\repos\lucvervoort\Exercises\Files\SubDirList\obj\Debug\netcoreapp3.1\SubDirList.pdb
