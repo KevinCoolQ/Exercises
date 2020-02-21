@@ -1,0 +1,11 @@
+﻿
+
+            using GenericParser gemeentenReader = new GenericParser(Config.Path + "/" + Config.Gemeentenamen)
+            {
+                ColumnDelimiter = ';',
+                FirstRowHasHeader = true,
+                MaxBufferSize = 4096
+            };
+            while (gemeentenReader.Read())
+            {
+            }
