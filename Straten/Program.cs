@@ -19,25 +19,27 @@ namespace Straten
 
             Land land = new Land { Id = 1, Naam = "Belgie", TaalCode = taalCode };
             var regio = new Regio { Id = 1, Naam = "Vlaanderen", Land = land };
-            land.Regios.Add(regio.Naam, regio);
+            land.Regios.Add(regio.Naam, regio); // SortedList
 
             switch(operation)
             {
                 case 1:
-                    land.Read();
-                    land.Persist();
+                    land.Read(); // Lees .csv bestanden in en stop resultaat in SortedList<> op elk niveau
+                    land.Persist(); // Zet [Serializable] boven classes Land, Regio, Provincie, ... en gebruik BinaryFormatter om ingelezen gegevens naar een file te schrijven
                     break;
                     /*
                 default:
                 case 2:
-                    land.Load();
+                    land.Load(); // Laad het met BinaryFormatter weggeschreven bestand terug in
                     break;
                     */
             }
 
+            // Exporteer de straatnamen naar files in subdirectory <land>/<regio>/<provincie>/<gemeente>
             Exporters.FileExporter fileExporter = new Exporters.FileExporter(land);
             fileExporter.Export(gemeente);
             /*
+            // Schrijf de straatnamen naar System.Console:
             Exporters.ConsoleExporter consoleExporter = new Exporters.ConsoleExporter(land);
             consoleExporter.Export(gemeente);
             */
