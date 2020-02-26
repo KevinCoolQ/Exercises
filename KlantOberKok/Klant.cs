@@ -3,17 +3,22 @@
     using System;
 
     /// <summary>
-    /// Klant: bestelt een product bij ober 
+    /// Klant: bestelt een product bij ober
     /// </summary>
     public class Klant
     {
+        #region Properties
         public string Naam { get; set; }
+        #endregion
 
+        #region Ctor
         public Klant(string naam)
         {
             Naam = naam;
         }
+        #endregion
 
+        #region Methods
         public void Betaal(string product)
         {
             Console.WriteLine("Ik ben " + Naam + " en ik betaal: " + product);
@@ -30,5 +35,6 @@
 
             ober.BrengBestelling(this, product);
         }
+        #endregion
     }
 }

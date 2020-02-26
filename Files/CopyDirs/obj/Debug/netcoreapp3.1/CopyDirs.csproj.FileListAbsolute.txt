@@ -1,0 +1,10 @@
+C:\Users\u2389\source\repos\lucvervoort\Exercises\Files\CopyDirs\bin\Debug\netcoreapp3.1\CopyDirs.exe
+C:\Users\u2389\source\repos\lucvervoort\Exercises\Files\CopyDirs\bin\Debug\netcoreapp3.1\CopyDirs.deps.json
+C:\Users\u2389\source\repos\lucvervoort\Exercises\Files\CopyDirs\bin\Debug\netcoreapp3.1\CopyDirs.runtimeconfig.json
+C:\Users\u2389\source\repos\lucvervoort\Exercises\Files\CopyDirs\bin\Debug\netcoreapp3.1\CopyDirs.runtimeconfig.dev.json
+C:\Users\u2389\source\repos\lucvervoort\Exercises\Files\CopyDirs\bin\Debug\netcoreapp3.1\CopyDirs.dll
+C:\Users\u2389\source\repos\lucvervoort\Exercises\Files\CopyDirs\bin\Debug\netcoreapp3.1\CopyDirs.pdb
+C:\Users\u2389\source\repos\lucvervoort\Exercises\Files\CopyDirs\obj\Debug\netcoreapp3.1\CopyDirs.AssemblyInfoInputs.cache
+C:\Users\u2389\source\repos\lucvervoort\Exercises\Files\CopyDirs\obj\Debug\netcoreapp3.1\CopyDirs.AssemblyInfo.cs
+C:\Users\u2389\source\repos\lucvervoort\Exercises\Files\CopyDirs\obj\Debug\netcoreapp3.1\CopyDirs.dll
+C:\Users\u2389\source\repos\lucvervoort\Exercises\Files\CopyDirs\obj\Debug\netcoreapp3.1\CopyDirs.pdb

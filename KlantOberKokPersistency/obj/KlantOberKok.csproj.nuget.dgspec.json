@@ -1,0 +1,211 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\u2389\\source\\repos\\lucvervoort\\Exercises\\KlantOberKokPersistency\\KlantOberKok.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\u2389\\source\\repos\\lucvervoort\\Exercises\\KlantOberKokPersistency\\KlantOberKok.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\u2389\\source\\repos\\lucvervoort\\Exercises\\KlantOberKokPersistency\\KlantOberKok.csproj",
+        "projectName": "KlantOberKok",
+        "projectPath": "C:\\Users\\u2389\\source\\repos\\lucvervoort\\Exercises\\KlantOberKokPersistency\\KlantOberKok.csproj",
+        "packagesPath": "C:\\Users\\u2389\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\u2389\\source\\repos\\lucvervoort\\Exercises\\KlantOberKokPersistency\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\u2389\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.MiddlewareAnalysis": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Analyzers": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.CodeAnalysis": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Microsoft.CodeAnalysis.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.9.8, )"
+            },
+            "Microsoft.CodeAnalysis.CSharp": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Microsoft.CodeAnalysis.CSharp.Workspaces": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Microsoft.CodeAnalysis.Common": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Microsoft.CodeAnalysis.Compilers": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Microsoft.CodeAnalysis.FxCopAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.9.8, )"
+            },
+            "Microsoft.CodeAnalysis.Razor": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.CodeAnalysis.Scripting.Common": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Microsoft.CodeAnalysis.VersionCheckAnalyzer": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.9.8, )"
+            },
+            "Microsoft.CodeAnalysis.VisualBasic": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Microsoft.CodeAnalysis.VisualBasic.Workspaces": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Microsoft.CodeAnalysis.Workspaces.Common": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Microsoft.CodeCoverage": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "Microsoft.CodeQuality.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.9.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Analyzers": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.NetCore.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.9.8, )"
+            },
+            "Microsoft.NetFramework.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.9.8, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Contracts": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Core": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Templating": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Utils": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGenerators.Mvc": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            },
+            "xunit.analyzers": {
+              "target": "Package",
+              "version": "[0.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

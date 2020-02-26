@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 
 class DirectoryCopyExample
 {
@@ -28,7 +29,15 @@ class DirectoryCopyExample
 
     static void Main(string[] args)
     {
+        var numbers = Tuple.Create(1, 2, 3, 4, 5, 6, 7, Tuple.Create(8, 9, 10, 11, 12, 13));
+        var a = numbers.Item1; // returns 1
+        var b = numbers.Item7; // returns 7
+        var c1 = numbers.Rest;
+        var c = numbers.Rest.Item1; //returns (8, 9, 10, 11, 12, 13)
+        var d = numbers.Rest.Item1.Item1; //returns 8
+        var e = numbers.Rest.Item1.Item2; //returns 9
+
         // Copy from the current directory, include subdirectories.
-        DirectoryCopy(@".\Temp", @".\Temp2", true);
+        //DirectoryCopy(@".\Temp", @".\Temp2", true);
     }
 }

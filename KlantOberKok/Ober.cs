@@ -5,10 +5,10 @@
 
     public class Ober
     {
+        #region Properties
         private List<Klant> _klanten = new List<Klant>();
 
         public string Naam { get; set; }
-
         public BestellingsSysteem BestellingsSysteem { get; set; }
 
         private Bel _bel;
@@ -27,12 +27,16 @@
                 this._bel.RingEvent += this.BelGehoord;
             }
         }
+        #endregion
 
+        #region Ctor
         public Ober(string name)
         {
             this.Naam = name;
         }
+        #endregion
 
+        #region Methods
         public void BrengBestelling(Klant klant, string product)
         {
             if (klant == null || string.IsNullOrEmpty(product)) return; // preconditie
@@ -50,5 +54,6 @@
             klant.Betaal(args.Product);
             klant.Consumeer(args.Product);
         }
+        #endregion
     }
 }

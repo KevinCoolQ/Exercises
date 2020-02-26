@@ -21,7 +21,7 @@ namespace Straten.Exporters
         public void Export(string gemeente)
         {
 #if DEBUG
-            DebugWriter.WriteLine("-> FileExporter::Export");
+            DebugWriter.WriteLine("-> ConsoleExporter::Export");
             var timer = new Stopwatch();
             timer.Start();
 #endif
@@ -46,7 +46,7 @@ namespace Straten.Exporters
 #if DEBUG
             timer.Stop();
             TimeSpan timeTaken = timer.Elapsed;
-            DebugWriter.WriteLine("<- FileExporter::Export: " + timeTaken.ToString(@"m\:ss\.fff"));
+            DebugWriter.WriteLine("<- ConsoleExporter::Export: " + timeTaken.ToString(@"m\:ss\.fff"));
 #endif
         }
         #endregion

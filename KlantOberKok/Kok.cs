@@ -2,6 +2,7 @@
 {
     public class Kok
     {
+        #region Properties
         public Bel Bel { get; set; }
 
         public string Naam { get; set; }
@@ -20,12 +21,16 @@
                 _bestellingsSysteem.BestellingEvent += BestellingOntvangen;
             }
         }
+        #endregion
 
+        #region Ctor
         public Kok(string naam)
         {
             Naam = naam;
         }
+        #endregion
 
+        #region Method
         public void BestellingOntvangen(object sender, BestelEventArgs args)
         {
             if (args == null || string.IsNullOrEmpty(args.Product)) return; // preconditie
@@ -33,5 +38,6 @@
             System.Threading.Thread.Sleep(5000);
             Bel.Ring(args);
         }
+        #endregion
     }
 }

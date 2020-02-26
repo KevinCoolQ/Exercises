@@ -8,3 +8,4 @@ C:\Users\u2389\source\repos\lucvervoort\Exercises\Straten\bin\Debug\netcoreapp3.
 C:\Users\u2389\source\repos\lucvervoort\Exercises\Straten\bin\Debug\netcoreapp3.1\Straten.pdb
 C:\Users\u2389\source\repos\lucvervoort\Exercises\Straten\obj\Debug\netcoreapp3.1\Straten.dll
 C:\Users\u2389\source\repos\lucvervoort\Exercises\Straten\obj\Debug\netcoreapp3.1\Straten.pdb
+C:\Users\u2389\source\repos\lucvervoort\Exercises\Straten\obj\Debug\netcoreapp3.1\Straten.csprojAssemblyReference.cache

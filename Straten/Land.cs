@@ -35,6 +35,7 @@ namespace Straten
         #region Methods
         public void Read()
         {
+            // Precompiler: in Debug mode is code aanwezig, anders niet
 #if DEBUG
             DebugWriter.WriteLine("-> Land::Read");
             var timer = new Stopwatch();

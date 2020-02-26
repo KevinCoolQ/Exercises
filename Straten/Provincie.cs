@@ -12,7 +12,7 @@ namespace Straten
         public string Naam { get; set; }
 
         /// <summary>
-        /// Parent
+        /// Parent: geen copie!
         /// </summary>
         public Regio Regio { get; set; }
 

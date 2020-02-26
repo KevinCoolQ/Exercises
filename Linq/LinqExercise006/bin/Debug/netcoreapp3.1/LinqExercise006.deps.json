@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "LinqExercise006/1.0.0": {
+        "runtime": {
+          "LinqExercise006.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LinqExercise006/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

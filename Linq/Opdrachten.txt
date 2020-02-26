@@ -1,0 +1,20 @@
+1. Array 0, 1, 2, 3, 4, 5, 6, 7, 8, 9: numbers that produce the remainder 0 after division by 2
+2. Array 1, 3, -2, -4, -7, -3, -8, 12, 19, 6, 9, 10, 14: numbers within the range 1 to 11
+3. Array 3, 9, 2, 8, 6, 5: squares > 20
+4. Array 5, 9, 1, 2, 3, 7, 5, 6, 7, 3, 7, 6, 8, 5, 4, 9, 6, 2: number occurs n times
+5. Frequency of characters in string specified by user
+6. Array "ROME","LONDON","NAIROBI","CALIFORNIA","ZURICH","NEW DELHI","AMSTERDAM","ABU DHABI", "PARIS": print cities that start and end with character specified by user
+7. List 55, 200, 740, 76, 230, 482, 95: print all numbers > 80
+8. List 5, 7, 13, 24, 6, 9, 8, 7: ask user how many biggest numbers to print and execute
+9. Ask user how many strings to store in array, get the strings and print all strings separated by comma
+10.
+11.
+12.
+13.
+14.
+15.
+16.
+17.
+18.
+19.
+20.

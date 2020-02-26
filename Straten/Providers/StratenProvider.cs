@@ -22,11 +22,11 @@ namespace Straten.Providers
         #region Methods
         private void Read()
         {
-//#if DEBUG
-//            DebugWriter.WriteLine("-> StratenProvider::Read");
-//            var timer = new Stopwatch();
-//            timer.Start();
-//#endif
+#if DEBUG
+            DebugWriter.WriteLine("-> StratenProvider::Read");
+            var timer = new Stopwatch();
+            timer.Start();
+#endif
             using GenericParser stratenGemeenteReader = new GenericParser(Config.Path + "/" + Config.StraatnaamGemeenteId)
             {
                 ColumnDelimiter = ';',
@@ -68,6 +68,11 @@ namespace Straten.Providers
 //#endif
         }
 
+        /// <summary>
+        /// Set: elk element is uniek (komt maar 1 keer voor)
+        /// </summary>
+        /// <param name="gemeenteId"></param>
+        /// <returns></returns>
         public SortedSet<string> GetStraten(int gemeenteId)
         {
             SortedSet<string> straten = new SortedSet<string>();
@@ -75,7 +80,7 @@ namespace Straten.Providers
             {
                 foreach (var straatId in _gemeenteStraat[gemeenteId])
                 {
-                    if (_straten.ContainsKey(straatId) && straten.Contains(_straten[straatId]))
+                    if (_straten.ContainsKey(straatId) && !straten.Contains(_straten[straatId]))
                         straten.Add(_straten[straatId]);
                 }
             }
