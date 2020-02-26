@@ -34,9 +34,9 @@ namespace Straten
                     break;
                     */
             }
-
+ 
             // Exporteer de straatnamen naar files in subdirectory <land>/<regio>/<provincie>/<gemeente>
-            Exporters.FileExporter fileExporter = new Exporters.FileExporter(land);
+            Interfaces.IExporter fileExporter = new Exporters.FileExporter(land);
             fileExporter.Export(gemeente);
             /*
             // Schrijf de straatnamen naar System.Console:

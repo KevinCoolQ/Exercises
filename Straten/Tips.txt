@@ -1,4 +1,7 @@
 ﻿
+1. Gebruik SortedList<>: sorteert de straatnamen!
+
+2. Hoe GenericParser gebruiken?
 
             Dictionary<int, Gemeente> gemeenten = new Dictionary<int, Gemeente>();
 
