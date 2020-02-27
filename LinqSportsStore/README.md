@@ -12,7 +12,7 @@ Het domein vormt het hart van een online shop die sportartikelen verkoopt. Klant
 #### Models
 Deze folder bevat de domein laag. 
 
-![datamodel.png](https://github.com/lucvervoort/Exercises/tree/master/LinqSportsStore/SportsStore/datamodel.PNG "Domein")
+![datamodel.png](https://github.com/lucvervoort/Exercises/tree/master/LinqSportsStore/SportsStore/datamodel.png "Domein")
 #### Data
 Deze folder bevat 1 klasse `DataSourceProvider`. De DataSourceProvider heeft drie publieke read-only properties. Ze leveren de IEnumerables aan waarop we met Linq zullen werken. 
 Als je wil zien wat deze properties bevatten kan je de private `Seed` methode raadplegen in deze klasse maar je hoeft in feite geen verdere kennis te hebben van deze klasse om de oefeningen te kunnen maken.
