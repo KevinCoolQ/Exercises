@@ -12,7 +12,7 @@ Het domein vormt het hart van een online shop die sportartikelen verkoopt. Klant
 #### Models
 Deze folder bevat de domein laag. 
 
-![SportsStore/datamodel.png](https://github.com/lucvervoort/Exercises/tree/master/LinqSportsStore/SportsStore/datamodel.png "Domein")
+![datamodel.png](https://github.com/lucvervoort/Exercises/tree/master/LinqSportsStore/SportsStore/datamodel.png "Domein")
 #### Data
 Deze folder bevat 1 klasse `DataSourceProvider`. De DataSourceProvider heeft drie publieke read-only properties. Ze leveren de IEnumerables aan waarop we met Linq zullen werken. 
 Als je wil zien wat deze properties bevatten kan je de private `Seed` methode raadplegen in deze klasse maar je hoeft in feite geen verdere kennis te hebben van deze klasse om de oefeningen te kunnen maken.
@@ -45,8 +45,8 @@ Je kan jouw uitvoer vergelijken met de voorbeeld uitvoer die hieronder is gegeve
 > De resultaten voor de klanten kunnen afwijken daar voornamen en steden van klanten random worden aangemaakt.
 
 ### Voorbeeld uitvoer
-![SportsStore/output1.png](https://github.com/lucvervoort/Exercises/tree/master/LinqSportsStore/SportsStore/output1.png "Voorbeeld Uitvoer")
-![SportsStore/output2.png](https://github.com/lucvervoort/Exercises/tree/master/LinqSportsStore/SportsStore/output2.png "Voorbeeld Uitvoer Vervolg")
+![output1.png](https://github.com/lucvervoort/Exercises/tree/master/LinqSportsStore/SportsStore/output1.png "Voorbeeld Uitvoer")
+![output2.png](https://github.com/lucvervoort/Exercises/tree/master/LinqSportsStore/SportsStore/output2.png "Voorbeeld Uitvoer Vervolg")
 
 ### Extra
 1. Pas de klasse `Cart` aan, maak gebruik van expression bodied function members 
