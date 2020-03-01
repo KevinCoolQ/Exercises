@@ -12,7 +12,7 @@ public class Students
     {
         List<Students> studentList = new List<Students>
         {
-            new Students { StuId = 1, StuName = " Joseph ", GrPoint = 800 },
+            new Students { StuId = 1, StuName = "Joseph", GrPoint = 800 },
             new Students { StuId = 2, StuName = "Alex", GrPoint = 458 },
             new Students { StuId = 3, StuName = "Harris", GrPoint = 900 },
             new Students { StuId = 4, StuName = "Taylor", GrPoint = 900 },

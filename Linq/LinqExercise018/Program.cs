@@ -6,7 +6,6 @@ class LinqExercise18
 {
     static void Main(string[] args)
     {
-
         string[] cities =
            {
                 "ROME","LONDON","NAIROBI","CALIFORNIA","ZURICH","NEW DELHI","AMSTERDAM","ABU DHABI", "PARIS"
