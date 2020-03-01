@@ -43,8 +43,20 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqExercise019", "LinqExer
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ACEF02F8-2FBE-4CA6-BEC2-64F0C575F37C}"
 	ProjectSection(SolutionItems) = preProject
-		Opdrachten.txt = Opdrachten.txt
+		Assignments.txt = Assignments.txt
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Linq in de praktijk", "Linq in de praktijk", "{4D6D384E-ECCF-44ED-8B75-BE15B843EE1B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2 - Alle woorden met enkel hoofdletters in een string", "Linq in de praktijk\Alle woorden met enkel hoofdletters in een string\2 - Alle woorden met enkel hoofdletters in een string.csproj", "{0DD6B09C-4A7D-46B8-95B6-1E8903A8B7F5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5 - Hoogste salaris per afdeling", "Linq in de praktijk\Hoogste salaris per afdeling\5 - Hoogste salaris per afdeling.csproj", "{EC7EBA4D-39A3-44A8-86CD-A0879B9A9ABF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1 - Top 5 applicaties RAM verbruik", "Linq in de praktijk\Top 5 applicaties RAM verbruik\1 - Top 5 applicaties RAM verbruik.csproj", "{5812D23E-C1C7-45F2-AF94-F96FC4B72337}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3 - Woorden in omgekeerde volgorde", "Linq in de praktijk\Woorden in omgekeerde volgorde\3 - Woorden in omgekeerde volgorde.csproj", "{F86CB729-3CFA-40CA-A482-A1901D7CF165}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4 - Totale omvang van een directory", "Linq in de praktijk\Totale omvang van een directory\4 - Totale omvang van een directory.csproj", "{BA8DA1E0-B546-4300-8358-3BAD095B7629}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -128,9 +140,36 @@ Global
 		{B34F1A8B-DAB6-4BEA-8E13-74945DA5B912}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B34F1A8B-DAB6-4BEA-8E13-74945DA5B912}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B34F1A8B-DAB6-4BEA-8E13-74945DA5B912}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DD6B09C-4A7D-46B8-95B6-1E8903A8B7F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DD6B09C-4A7D-46B8-95B6-1E8903A8B7F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DD6B09C-4A7D-46B8-95B6-1E8903A8B7F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DD6B09C-4A7D-46B8-95B6-1E8903A8B7F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC7EBA4D-39A3-44A8-86CD-A0879B9A9ABF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC7EBA4D-39A3-44A8-86CD-A0879B9A9ABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC7EBA4D-39A3-44A8-86CD-A0879B9A9ABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC7EBA4D-39A3-44A8-86CD-A0879B9A9ABF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5812D23E-C1C7-45F2-AF94-F96FC4B72337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5812D23E-C1C7-45F2-AF94-F96FC4B72337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5812D23E-C1C7-45F2-AF94-F96FC4B72337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5812D23E-C1C7-45F2-AF94-F96FC4B72337}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F86CB729-3CFA-40CA-A482-A1901D7CF165}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F86CB729-3CFA-40CA-A482-A1901D7CF165}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F86CB729-3CFA-40CA-A482-A1901D7CF165}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F86CB729-3CFA-40CA-A482-A1901D7CF165}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA8DA1E0-B546-4300-8358-3BAD095B7629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA8DA1E0-B546-4300-8358-3BAD095B7629}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA8DA1E0-B546-4300-8358-3BAD095B7629}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA8DA1E0-B546-4300-8358-3BAD095B7629}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0DD6B09C-4A7D-46B8-95B6-1E8903A8B7F5} = {4D6D384E-ECCF-44ED-8B75-BE15B843EE1B}
+		{EC7EBA4D-39A3-44A8-86CD-A0879B9A9ABF} = {4D6D384E-ECCF-44ED-8B75-BE15B843EE1B}
+		{5812D23E-C1C7-45F2-AF94-F96FC4B72337} = {4D6D384E-ECCF-44ED-8B75-BE15B843EE1B}
+		{F86CB729-3CFA-40CA-A482-A1901D7CF165} = {4D6D384E-ECCF-44ED-8B75-BE15B843EE1B}
+		{BA8DA1E0-B546-4300-8358-3BAD095B7629} = {4D6D384E-ECCF-44ED-8B75-BE15B843EE1B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {886C9D55-0EFE-402D-A360-B09B89736777}

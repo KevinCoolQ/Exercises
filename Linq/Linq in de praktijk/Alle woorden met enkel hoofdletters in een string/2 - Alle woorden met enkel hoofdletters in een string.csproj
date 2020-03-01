@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Alle_woorden_met_enkel_hoofdletters_in_een_string</RootNamespace>
+  </PropertyGroup>
+
+</Project>
