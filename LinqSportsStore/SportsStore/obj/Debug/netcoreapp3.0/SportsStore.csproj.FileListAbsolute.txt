@@ -1,0 +1,11 @@
+C:\Users\u2389\source\repos\lucvervoort\Exercises\LinqSportsStore\SportsStore\bin\Debug\netcoreapp3.0\SportsStore.exe
+C:\Users\u2389\source\repos\lucvervoort\Exercises\LinqSportsStore\SportsStore\bin\Debug\netcoreapp3.0\SportsStore.deps.json
+C:\Users\u2389\source\repos\lucvervoort\Exercises\LinqSportsStore\SportsStore\bin\Debug\netcoreapp3.0\SportsStore.runtimeconfig.json
+C:\Users\u2389\source\repos\lucvervoort\Exercises\LinqSportsStore\SportsStore\bin\Debug\netcoreapp3.0\SportsStore.runtimeconfig.dev.json
+C:\Users\u2389\source\repos\lucvervoort\Exercises\LinqSportsStore\SportsStore\bin\Debug\netcoreapp3.0\SportsStore.dll
+C:\Users\u2389\source\repos\lucvervoort\Exercises\LinqSportsStore\SportsStore\bin\Debug\netcoreapp3.0\SportsStore.pdb
+C:\Users\u2389\source\repos\lucvervoort\Exercises\LinqSportsStore\SportsStore\obj\Debug\netcoreapp3.0\SportsStore.csprojAssemblyReference.cache
+C:\Users\u2389\source\repos\lucvervoort\Exercises\LinqSportsStore\SportsStore\obj\Debug\netcoreapp3.0\SportsStore.AssemblyInfoInputs.cache
+C:\Users\u2389\source\repos\lucvervoort\Exercises\LinqSportsStore\SportsStore\obj\Debug\netcoreapp3.0\SportsStore.AssemblyInfo.cs
+C:\Users\u2389\source\repos\lucvervoort\Exercises\LinqSportsStore\SportsStore\obj\Debug\netcoreapp3.0\SportsStore.dll
+C:\Users\u2389\source\repos\lucvervoort\Exercises\LinqSportsStore\SportsStore\obj\Debug\netcoreapp3.0\SportsStore.pdb

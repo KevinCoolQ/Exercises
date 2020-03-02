@@ -26,15 +26,11 @@ namespace ConsoleApplication
         {
             long totalSize = 0; // gebruik dInfo.EnumerateFiles()
 
-            // Enumerate all the files
-            // long totalSize = dInfo.EnumerateFiles().Sum(file => file.Length);
-
             // If Subdirectories are to be included
             if (includeSubDir)
             {
                 // Enumerate all sub-directories
                 totalSize += 0; // gebruik dInfo.EnumerateDirectories() en roep DirectorySize() opnieuw op - RECURSIEF!
-                //totalSize += dInfo.EnumerateDirectories().Sum(dir => DirectorySize(dir, true));
             }
             return totalSize;
         }
