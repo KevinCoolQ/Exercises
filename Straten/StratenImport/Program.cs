@@ -23,10 +23,10 @@ namespace Straten
             land.Regios.Add(regio.Naam, regio); // SortedList
 
             LandProvider landProvider = new LandProvider(land);
-            landProvider.Read(); // Lees .csv bestanden in en stop resultaat in SortedList<> op elk niveau
+            landProvider.Read(); 
 
             LandExporter landExporter = new LandExporter(land);
-            landExporter.Persist(); // Zet [Serializable] boven classes Land, Regio, Provincie, ... en gebruik BinaryFormatter om ingelezen gegevens naar een file te schrijven
+            landExporter.Persist(); 
 
             return 0;
         }
