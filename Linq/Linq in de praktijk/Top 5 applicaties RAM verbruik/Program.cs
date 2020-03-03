@@ -8,11 +8,17 @@ namespace Top_5_applicaties_RAM_verbruik
         static void Main(string[] args)
         {
             // Pas aan: enkel top 5
-            var query = System.Diagnostics.Process.GetProcesses();
+            var query = (from p in System.Diagnostics.Process.GetProcesses()
+                         orderby p.PrivateMemorySize64 descending
+                         select p)
+                             //.Skip(0)
+                             .Take(5)
+                             .ToList();
             foreach (var item in query)
             {
-                System.Diagnostics.Debug.WriteLine(item.ProcessName);
+                System.Console.WriteLine(item.ProcessName);
             }
+            Console.ReadKey();
         }
     }
 }
