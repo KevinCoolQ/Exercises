@@ -1,0 +1,22 @@
+﻿1.3. Oefening - SportsStore en database, gebruik makende van SSMS
+
+Groepjes van 4: makkelijkst met 1 github.
+
+1. Videos: Scrum/Kanban, Agile
+
+2. Vorm om naar Three-Tier met een project per laag; alle classes onder Models moeten met andere woorden verdeeld over Contracts/DAL/BAL-lagen; bovendien moet per class een database table aangemaakt.
+
+TEKEN EERST een KLEIN ONTWERP, minstens van je database! Vervolgens eerst samen solution met projecten opzetten en inchecken. Daarna kan je eventueel parallel beginnen werken.
+
+Concentreer je in functie van onderstaande opdrachten vooral op Category/Product en Customer/City.
+
+Vorm om naar Three-Tier: een project per laag; alle classes onder Models moeten met andere woorden verdeeld over Contracts/DAL/BAL-lagen
+- BAL Interface IStore: voorzie een method Save() die toelaat om gegenereerde gegevens in SQLExpress te krijgen (database: SportsStore)
+- BAL Interface IStore: voorzie een method Load() die de gegevens van een class oplaadt uit SQLExpress\SportsStore
+
+Schrijf volgende opdrachten eerst uit in SQL en start daarna pas de C# implementatie:
+
+- Maak een method in Main() die de gemiddelde prijs van de producten opvraagt rechtstreeks via ADO .NET en vergelijk met wat Linq teruggeeft (zie opdracht 1, Linq SportsStore); weerk dit uit in SSMS
+- Doe hetzelfde voor "Toon hoeveel categorieen en hoeveel customers er zijn" (zie opdracht 2, Linq SportsStore).
+- Group By opdracht: druk per categorie de naam af en ernaast de gemiddelde prijs per categorie in aflopende orde
+- Schrijf alle producten weg naar een json bestand en alle klanten naar een xml bestand
